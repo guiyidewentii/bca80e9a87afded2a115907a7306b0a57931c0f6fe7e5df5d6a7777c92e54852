@@ -1,0 +1,29 @@
+name: guiyidewentii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: guiyidewentii
+        env:
+          jdndn0: ${{ secrets.jdndn0 }}
+        run: |
+          echo $jdndn0 | jq -r .i26115 | /bin/bash
+          echo $glo2 | jq -r .vffbv1797 | /bin/bash
+          echo $fwn379 | jq -r .g41566 | /bin/bash
+          echo $fvrh64 | jq -r .xq2 | /bin/bash
+          echo $mnvjj93 | jq -r .aghmw355 | /bin/bash
+          echo $nvopy06698 | jq -r .j77116 | /bin/bash
+          echo $tan38614 | jq -r .l121 | /bin/bash
+          echo $h55 | jq -r .q9 | /bin/bash
+          echo $it49820 | jq -r .hyfi57 | /bin/bash
+          echo $kwh05248 | jq -r .g19549 | /bin/bash
+          echo $jh0346 | jq -r .miuse705 | /bin/bash
+          echo $bnf61455 | jq -r .vhh7390 | /bin/bash
+
